@@ -1,6 +1,6 @@
 import axios from "axios";
 // require("dotenv").config();
-export const url_api = "https://menu-kceros-backend-production.up.railway.app";
+export const url_api = "http://menu-kceros-backend-production.up.railway.app";
 
 export const getUsers = async() => {
   
