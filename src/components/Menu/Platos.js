@@ -31,7 +31,7 @@ const Platos = ({items}) =>{
                 <Card.Title className='titulo'><h3>{title}</h3></Card.Title>
                 <Card.Img className='img_menu py-2' variant="top" src={img} alt={title}  />
                 <Card.Text className='desc'>
-                  <h5>Precio</h5>
+                  Precio
                    $ {price}
                 </Card.Text>
 

@@ -1,20 +1,20 @@
-import { Navbar, Nav, Badge, Container } from "react-bootstrap";
-import React, { useContext, useState } from 'react';
+import { Navbar, Nav, Container } from "react-bootstrap";
+import React, { useState } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import './navbar.css'
 import logo from "../components/imagenes/logo-removebg-preview.png"
-import ShoppingCartContext from "../context/shopping-cart/ShoppingCartContext.js"
+// import ShoppingCartContext from "../context/shopping-cart/ShoppingCartContext.js"
 import ShoppingCart from "../components/ShoppingCard/ShoppingCart.js"
-import UserContext from "../context/user.context";
+// import UserContext from "../context/user.context";
 import Footer from "./Footer";
 
 
 const NavBarComercio= () => {
-  const userCtx = useContext( UserContext )
-  const shoppingCartCtx = useContext( ShoppingCartContext )
+  // const userCtx = useContext( UserContext )
+  // const shoppingCartCtx = useContext( ShoppingCartContext )
 
-  const { logout, user } = userCtx
-  const { products } = shoppingCartCtx
+  // // const { logout, user } = userCtx
+  // // const { products } = shoppingCartCtx
 
   const [ showShoppingCart, setShowShoppingCart ] = useState( false );
 
@@ -36,7 +36,7 @@ const NavBarComercio= () => {
             <Nav.Link as={Link} to="/">Inicio</Nav.Link>
             <Nav.Link as={Link} to="/Menu">Menú</Nav.Link>
             <Nav.Link as={Link} to="/Registro">Registro</Nav.Link>
-            <Nav.Link as={Link} to="/Miperfil">Mi perfil</Nav.Link>
+            {/* <Nav.Link as={Link} to="/Miperfil">Mi perfil</Nav.Link> */}
            
           </Nav>
           </Navbar.Collapse>
@@ -46,7 +46,7 @@ const NavBarComercio= () => {
                       <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
                     </svg> <Badge bg="dark">{ products.length > 0 ? products.length : '' }</Badge>
                   </Button> */}
-          {/* <Nav.Link as={Link} to="/ShoppingCard"><button onClick={ handleShowShoppingCart } className="fa-sharp fa-solid fa-cart-shopping bg-secondary border-0 fs-2 me-3 text-light"> <Badge bg="dark">{ products.length > 0 ? products.length : '' }</Badge></button></Nav.Link>          */}
+          <Nav.Link as={Link} to="/ShoppingCard"><button onClick={ handleShowShoppingCart } className="fa-sharp fa-solid fa-cart-shopping bg-secondary border-0 fs-2 me-3 text-light"></button></Nav.Link>         
           <Nav.Link as={Link} to="/IniciarSesion"><i className="fa-sharp fa-solid fa-user fs-3 me-3 text-light"></i></Nav.Link>         
 
           </Nav>

@@ -3,14 +3,14 @@ import { Nav } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import { useContext, useState } from "react";
 import "./iniciarsesion.css";
-import { useNavigate, Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import UserContext from '../../context/user.context';
 
 
 
 function Iniciarsesion() {
 
-const navigate = useNavigate();
+
 const state = useContext(UserContext)
 
   const [datos, setDatos] = useState({
@@ -60,6 +60,6 @@ console.log(datos)
     </section>
   );
 }
-
+//al apretar submit ingresa a mi perfil
 
 export default Iniciarsesion;

@@ -1,7 +1,8 @@
+
 import { useEffect, useState } from 'react';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import { getUsers } from '../api/Api';
+// import { getUsers } from '../api/Api';
 import "./Miperfil.css"
 import { url_api } from '../api/Api';
 import { useParams } from 'react-router-dom'
@@ -102,5 +103,3 @@ const Miperfil = () => {
 
 
 export default Miperfil
-
-
