@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Menu-kceros-Frontend/static/css/main.0f23ab72.css",
+    "main.js": "/Menu-kceros-Frontend/static/js/main.53c081e5.js",
+    "static/media/foto-paginainicio.jpg": "/Menu-kceros-Frontend/static/media/foto-paginainicio.5150453ccab2e170ae8f.jpg",
+    "static/media/fotoCarrusel3.jpg": "/Menu-kceros-Frontend/static/media/fotoCarrusel3.2e9e74c9b30628a7bc75.jpg",
+    "static/media/fotoCarrusel4.jpg": "/Menu-kceros-Frontend/static/media/fotoCarrusel4.f0331c28c22dfbd00596.jpg",
+    "static/media/patrontarjeta.jpg": "/Menu-kceros-Frontend/static/media/patrontarjeta.cbf715a52b194bb258a0.jpg",
+    "static/media/logo-removebg-preview.png": "/Menu-kceros-Frontend/static/media/logo-removebg-preview.fa44f791598d4238bd9e.png",
+    "static/media/fotoCarrusel1.jpg": "/Menu-kceros-Frontend/static/media/fotoCarrusel1.631ac60f359d8a0b9d41.jpg",
+    "static/media/foto-comidaadomicilio.jpg": "/Menu-kceros-Frontend/static/media/foto-comidaadomicilio.220a9259297c4e737e04.jpg",
+    "static/media/foto-menusemanal.jpg": "/Menu-kceros-Frontend/static/media/foto-menusemanal.4056f946c57bdaa13942.jpg",
+    "index.html": "/Menu-kceros-Frontend/index.html",
+    "main.0f23ab72.css.map": "/Menu-kceros-Frontend/static/css/main.0f23ab72.css.map",
+    "main.53c081e5.js.map": "/Menu-kceros-Frontend/static/js/main.53c081e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f23ab72.css",
+    "static/js/main.53c081e5.js"
+  ]
+}
