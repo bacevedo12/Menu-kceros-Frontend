@@ -27,7 +27,7 @@ const Miperfil = () => {
         getUsers();
   }, []);
 
-
+console.log(perfil)
   
 
     return (
