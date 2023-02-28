@@ -8,7 +8,7 @@ Página web desarrollada para un negocio familiar de venta de comida casera a do
 
 ## Ingreso a la pagina
 
-Podrás acceder a la pagina mediante el siguiente link:xxxx
+Podrás acceder a la pagina mediante el siguiente link:https://bacevedo12.github.io/Menu-kceros-Frontend/
 
 ## Contrucción de la pagina
 
